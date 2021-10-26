@@ -48,7 +48,7 @@ variable "security_group_name" {
 
 variable "ingress_cidr_blocks" {
     type = list(string)
-    default = ["10.10.0.0/16"]
+    default = ["0.0.0.0/0"]
 }
 
 variable "ingress_rules" {
